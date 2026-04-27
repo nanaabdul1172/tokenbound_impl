@@ -1,0 +1,32 @@
+# Rust/Cargo
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Soroban
+.soroban/
+.stellar/
+*.wasm
+*.optimized.wasm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+**/.soroban-cache
+
+# Test artifacts
+*.profraw
+
+# Logs
+*.log
